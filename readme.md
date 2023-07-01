@@ -213,10 +213,46 @@ Aqui vamos declarar as colunas da tabela:
 </schema>
 ```
 
+#### `types`
+ 
+ Aqui vão ser os tipos de campos disponiveis:
+ 
+- boolean
+- float
+- decimal
+- double
+- integer
+- smallinteger
+- tinyinteger
+- biginteger
+- longtext
+- char
+- text
+- varchar
+- json
+- mediumtext
+- mediumblob
+- varbinary
+- longblob
+- blob
+- column
+- datetime
+- date
+- timestamp
+- default
 
+#### `name`
 
+Aqui colocamos o nome da nossa coluna
 
+#### `unsigned`
 
+Para dados numericos ele vai representar se o campo pode ou não ter um dado negativo
 
+#### `nullable`
 
+Especifica se o valor pode ser nulo
 
+#### `identity`
+
+Especifica se a coluna é incremetada automaticamente
